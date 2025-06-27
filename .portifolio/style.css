@@ -1,0 +1,75 @@
+#navegação{
+    position: relative;
+    z-index: 3;
+}
+*head{
+.orbitron-uniquifier {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+  
+.orbitron-uniquifier {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+}
+}
+
+#navegação ul li{
+    font-family: "Orbitron", sans-serif;
+    background: #4af767;
+    border-width: 10px;
+    border-radius: 9999px;
+    border: 1px solid #0c4e1173;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 10px;
+    display: inline-flex;
+    margin:10px;
+    padding: 16px;
+
+    position: relative;
+    z-index: 5;
+}
+.bglogo{
+    width: 50px;
+    display: inline;
+    z-index: 1;
+    padding: 1rem;
+    float: left;
+}
+
+ a:hover{
+    text-decoration: color yellowgreen;
+}
+.preto ul li a{
+    color: rgb(10, 10, 10);
+}
+ li a{
+    text-decoration: none;
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+     background: 
+        linear-gradient(
+            to right,
+            #0d0015 0%,
+            #1a002d 20%,
+            #200036 40%,
+            #270042 60%,
+            #290042 80%,
+            #320051 90%
+    );
+  color: white;
+  font-family: sans-serif;
+
+
+    
+}
