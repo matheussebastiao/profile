@@ -73,3 +73,12 @@ body{
 
     
 }
+h1{
+    font-family: orbitron-uniquifier, sans-serif;
+    text-align: start;
+    margin: 24px 
+}
+.link{
+    color: white;
+    text-decoration: underline;
+}
