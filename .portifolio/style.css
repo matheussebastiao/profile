@@ -30,7 +30,7 @@
     width: 64px;
     height: 10px;
     display: inline-flex;
-    margin:10px;
+    margin:1px;
     padding: 16px;
 
     position: relative;
@@ -39,9 +39,9 @@
 .bglogo{
     width: 50px;
     /* display: inline-block; removed to avoid conflict with float */
-    margin: auto;
+    margin: 1px;
     z-index: 1;
-    padding: 1rem;
+    padding: 16p;
     float: left;
 }
 
