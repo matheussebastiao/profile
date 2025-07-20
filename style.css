@@ -19,23 +19,23 @@
 }
 }
 
-#navegação ul li{
+.navegação .nav-button {
     font-family: "Orbitron", sans-serif;
     background: #4af767;
-    border-width: 10px;
     border-radius: 9999px;
     border: 1px solid #0c4e1173;
     justify-content: center;
     align-items: center;
-    width: 64px;
-    height: 10px;
+    width: 100px;
+    height: 40px;
     display: inline-flex;
-    margin:1px;
-    padding: 16px;
-
-    position: relative;
-    z-index: 5;
+    margin: 4px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
 }
+
 .bglogo{
     width: 50px;
     /* display: inline-block; removed to avoid conflict with float */
@@ -45,9 +45,12 @@
     float: left;
 }
 
- a:hover{
-    text-decoration: color yellowgreen;
+ a:hover {
+  background-color: rgb(230, 58, 236);
+
+    text-decoration: underline;
 }
+
 .preto ul li a{
     color: rgb(10, 10, 10);
 }
