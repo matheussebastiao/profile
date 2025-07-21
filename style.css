@@ -47,11 +47,11 @@
 
  a:hover {
   background-color: rgb(230, 58, 236);
-
     text-decoration: underline;
+    transition: opacity 0.3s ease-in-out;
 }
 
-.preto ul li a{
+.preto button{
     color: rgb(10, 10, 10);
 }
  li a{
@@ -79,7 +79,7 @@ body{
 
 }
 body{
-  img{
+  .miku{
     width: 15%;
     height: auto;
     display: block;
@@ -90,7 +90,7 @@ body{
     z-index: 0;
   }
 }
-#miku{
+.miku{
   border: 6px solid #4af767;
 }
 .link{
@@ -136,3 +136,14 @@ h2{
   width: 80%;
   gap: 16x;
 }
+ img{
+    width: 15%;
+    height: auto;
+    display: inline;
+    font-size: 4rem;
+    justify-content: start;
+    align-content: center;
+    margin: 12px 4px;
+    padding: 16px ;
+    border-radius: 3px;
+    z-index: 0;}/*
