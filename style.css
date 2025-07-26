@@ -29,7 +29,7 @@
     width: 100px;
     height: 40px;
     display: inline-flex;
-    margin: 4px;
+    margin: 6px;
     padding: 10px;
     cursor: pointer;
     color: rgb(10, 10, 10);
@@ -54,7 +54,7 @@
 .preto button{
     color: rgb(10, 10, 10);
 }
- li a{
+ button a{
     text-decoration: none;
 }
 
@@ -99,6 +99,7 @@ body{
 }
 h1{
    display: block;
+   text-decoration: underline;
    width: 100%;
    font-size: 2rem;
 z-index: 0;
@@ -130,12 +131,32 @@ h2{
   color: #ddf74a;
   font-family: "Orbitron", sans-serif;
   font-size: 4rem;
-  margin: 0 auto;
-  text-align: justify;
+  margin:  auto;
+  display: inline;
+  text-align: center;
   align-items: center;
   width: 80%;
   gap: 16x;
 }
+
+  .dashboard {
+  width: 80%;          /* Largura da caixa */
+  margin: 32px auto;       /* Centraliza horizontalmente */
+  padding: 24px;           /* Espaço interno */
+  border: 3px solid #4af76777; /* Borda verde */
+  border-radius: 12px;     /* Cantos arredondados */
+  background: #1a002d;     /* Cor de fundo opcional */
+  box-shadow: 0 2px 12px #0005; /* Sombra opcional */
+  display: block;
+  justify-content: center; /* Coloca os itens em coluna */
+  }
+  .projetos {
+    width: 80%;
+    display: inline-block ;
+    margin: auto;
+    margin: 12px 12px;
+    padding: 16px ;
+    border-radius: 21px;}
  img{
     width: 15%;
     height: auto;
@@ -146,4 +167,38 @@ h2{
     margin: 12px 4px;
     padding: 16px ;
     border-radius: 3px;
-    z-index: 0;}/*
+    z-index: 0;}
+
+    @media (max-width: 768px) {
+      .projetos {
+         width: 80%;
+    display: inline-block ;
+    margin: auto;
+    margin: 12px 12px;
+    padding: 16px ;
+    border-radius: 21px;
+      }
+      img {
+         width: 15%;
+    height: auto;
+    display: inline;
+    font-size: 4rem;
+    justify-content: start;
+    align-content: center;
+    margin: 12px 4px;
+    padding: 16px ;
+    border-radius: 3px;
+    z-index: 0;}
+      .dashboard {
+        width: 100%;          /* Largura da caixa */
+        margin: 32px auto;       /* Centraliza horizontalmente */
+        padding: 24px;           /* Espaço interno */
+        border: 3px solid #4af76777; /* Borda verde */
+        border-radius: 12px;     /* Cantos arredondados */
+        background: #1a002d;     /* Cor de fundo opcional */
+        box-shadow: 0 2px 12px #0005; /* Sombra opcional */
+        display: block;
+        justify-content: center; /* Coloca os itens em coluna */
+      }
+    }
+    
